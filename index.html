@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./family_budjet.css">
+</head>
+<body>
+<div class="container">
+    <h1>Каталог товаров</h1>
+    <input id="name" placeholder="введите наименование товара">
+    <input id="price" placeholder="введите цену товара">
+    <button id="task" onclick="createTable()"> +</button>
+
+    <table id="table" class="tab_list">
+        <thead>
+        <tr class="row_table-header">
+            <th class="column_number">№ п/п</th>
+            <th class="column_name">Наименование товара</th>
+            <th class="column_date">Время и дата внесения в каталог</th>
+            <th class="column_price">Цена за ед., руб.</th>
+            <th class="column_delete">
+                <button class="btn_delete">X</button>
+            </th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+    <input id="info_message" style="" placeholder="введите информационное сообщение">
+    <button id="btn_info_message">отправить</button>
+
+</div>
+
+
+<script src="./family_budlet.js"></script>
+</body>
+</html>
+
+

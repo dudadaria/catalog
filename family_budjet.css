@@ -1,0 +1,88 @@
+body{
+    background-image: url("backdrops-with_424947-3294.jpg");
+}
+
+.container{
+    position: absolute;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.container #name, #price, #info_message{
+    width: 500px;
+    height: 40px;
+    border: 2px solid #595959;
+}
+.container #price{
+    width: 140px;
+}
+.container #task, #btn_info_message{
+    height: 46px;
+    width: 45px;
+    border: 2px solid #595959;
+}
+
+.container #btn_info_message{
+    height: 46px;
+    width: 100px;
+    border: 2px solid #595959;
+}
+
+
+h1{
+    font-size: 50px;
+    color: #5a2263;
+}
+
+table.tab_list{
+    margin: 50px;
+    width: 90%;
+    border-collapse:collapse;
+}
+table.tab_list,table.tab_list td, table.tab_list th {
+    border: 2px solid #595959;
+}
+
+.row_table-header, .row{
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.row{
+
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: start;
+    text-indent: 10px;
+}
+
+
+.column_number{
+    width: 55px;
+}
+
+.column_name{
+    width: 600px;
+}
+
+.info_message{
+    top: 7px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: rgba(249,255,249, 0.5);
+    width: 250px;
+    height: 70px;
+    border: 1px solid black;
+    z-index: 1;
+
+}
+
+.btn_message{
+    position: absolute;
+    right: 0px;
+}
